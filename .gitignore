@@ -1,0 +1,74 @@
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing-related
+coverage/
+# Jest snapshot testing
+*.snap
+
+# Build files and output directories
+build/
+dist/
+.tmp/
+.out/
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Webpack files (if using webpack)
+*.webpack
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore lockfiles (optional, depending on your package manager)
+# Uncomment the line below if you prefer to ignore package lockfiles
+# package-lock.json
+# yarn.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Apollo GraphQL-related files
+# Apollo Client may generate a "graphql-schema.json" or similar file when using Apollo codegen
+graphql-schema.json
+*.graphql.ts
+*.graphql.js
+
+# Local environment and config files
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Next.js (if used alongside React)
+.next/
+
+# Temporary files and backups
+*.swp
+*.bak
+*.tmp
+
+# Mac-specific files
+.DS_Store

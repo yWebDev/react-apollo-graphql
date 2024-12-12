@@ -12,4 +12,5 @@ const models: IModels = {
     User: require('./User').default(sequelize, Sequelize),
     sequelize
 }
+
 export default models;

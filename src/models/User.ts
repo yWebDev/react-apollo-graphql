@@ -1,7 +1,5 @@
 import { encrypt } from "@contentpi/lib";
 import { IDataTypes, IUser } from '../types'
-import {CreateOptions} from "sequelize";
-import {HookReturn} from "sequelize/types/hooks";
 
 export default (sequelize: any, DataTypes: IDataTypes): IUser => {
     const User = sequelize.define('User', {

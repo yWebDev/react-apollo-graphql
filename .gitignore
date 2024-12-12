@@ -72,3 +72,5 @@ graphql-schema.json
 
 # Mac-specific files
 .DS_Store
+
+.npmrc
